@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .container{
+    width: 80%;
+    height: 300px;
+    border: 2px solid gray;
+    display:flex ;
+  }
+  .box23{
+    display:flex;
+    flex-direction:column
+  }
+  .box{
+    display: :flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    font-size:20px;
+    border:1px;
+  }
+  .box-1{
+    background-color: lightcoral;
+    flex-grow:2;
+  }
+  .column{
+    display:flex;
+    flex-direction: column;
+    flex-grow: 1;
+    }
+     
+  .box-2{
+    background-color: lightgreen;
+    flex-grow:1;
+  }
+  
+  .box-3{
+    background-color: lightblue;
+    flex-grow:1;
+  }
